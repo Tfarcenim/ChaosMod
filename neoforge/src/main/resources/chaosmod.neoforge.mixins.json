@@ -1,16 +1,15 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.example.examplemod.mixin",
-  "refmap": "${mod_id}.refmap.json",
+  "package": "tfar.chaosmod.mixin",
   "compatibilityLevel": "JAVA_21",
-  "mixins": [],
+  "mixins": [
+    "IItemExtensionMixin"
+  ],
   "client": [
-    "tfar.chaosmod.mixin.MixinTitleScreen"
   ],
   "server": [],
   "injectors": {
     "defaultRequire": 1
   }
 }
-  
